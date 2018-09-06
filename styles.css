@@ -1,0 +1,137 @@
+/* Styling for the body section of the page */
+
+body {
+  background: linear-gradient(to right, #ed213a, #93291e);
+}
+
+#query {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Limelight', cursive;
+  font-size: 45pt;
+  text-shadow: 2px 2px 4px #000000;
+  color: white;
+}
+
+#movies {
+  width: 600px;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#movies * {
+  width: 175px;
+  height: 225px;
+}
+
+img {
+  width: 33%;
+}
+
+#genre {
+  -webkit-appearance: none;
+  appearance: none;
+  display: -webkit-inline-flex;
+  padding: 10px 50px 10px 10px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 240px;
+  border: 2px white;
+  border-radius: 2px;
+  background: url(/Users/sherlock/Documents/arrow.png) no-repeat 95% center;
+  background-color: black;
+}
+
+#certification {
+  -webkit-appearance: none;
+  display: -webkit-inline-flex;
+  appearance: none;
+  padding: 10px 50px 10px 10px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 240px;
+  border: 2px white;
+  border-radius: 2px;
+  background: url(/Users/sherlock/Documents/arrow.png) no-repeat 95% center;
+  background-color: black;
+}
+
+#year {
+  -webkit-appearance: none;
+  display: -webkit-inline-flex;
+  appearance: none;
+  padding: 10px 50px 10px 10px;
+  margin-right: 20px;
+  width: 220px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px white;
+}
+
+::placeholder {
+  color: black;
+}
+
+#button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 85px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: black;
+}
+
+#button:hover {
+  transform: scale(1.25) perspective(1px);
+}
+
+/* Styling fotr the footer section of the page */
+
+footer {
+  position: absolute;
+  bottom: 55px;
+  width: 100%;
+  height: 60px;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: white;
+}
+
+#rottenTomatoesLogo {
+  width: 80px;
+  height: 35px;
+  padding: 5px 5px;
+  align-self: center;
+}
+
+#metacriticLogo {
+  width: 80px;
+  height: 35px;
+  padding: 5px 5px;
+  align-self: center;
+}
+
+#fandangoLogo {
+  width: 80px;
+  height: 35px;
+  padding: 5px 5px;
+  align-self: center;
+}
+
+#movieTicketsLogo {
+  width: 80px;
+  height: 35px;
+  padding: 5px 5px;
+  align-self: center;
+}

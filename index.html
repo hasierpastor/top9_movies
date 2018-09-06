@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Top 10 Movies</title>
+  <link rel="stylesheet" href="styles.css?v=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <h1 align="center">
+        TOP 10 MOVIES APP
+    </h1>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+
+  <div id="query" align="center" item-width="100">
+  
+    <!-- Genre Source: https://developers.themoviedb.org/3/genres/get-movie-list -->
+    
+    <select id="genre" height="50" width="250">
+        <option>Select Genre:</option>
+        <option value="28">Action</option>
+        <option value="12">Adventure</option>
+        <option value="16">Animation</option>
+        <option value="35">Comedy</option>
+        <option value="80">Crime</option>
+        <option value="99">Documentary</option>
+        <option value="18">Drama</option>
+        <option value="10751">Family</option>
+        <option value="14">Fantasy</option>
+        <option value="36">History</option>
+        <option value="27">Horror</option>
+        <option value="10402">Music</option>
+    </select>
+
+    <select id="certification" height="50">
+        <option>Select Movie Rating:</option>
+        <option value="G">G</option>
+        <option value="PG">PG</option>
+        <option value="PG-13">PG-13</option>
+        <option value="R">R</option>
+        <option value="NC-17">NC-17</option>
+    </select>
+
+    <input type="text" id="year" placeholder="Year released" />
+    <button type="button" id="button">Go!</button>
+
+</dv>
+
+    <br></br>
+  
+<div id="movies" style="display: inline" align="center">
+    <input type="image" id="movieImg0" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />      
+    <input type="image" id="movieImg1" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <input type="image" id="movieImg2" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <input type="image" id="movieImg3" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <input type="image" id="movieImg4" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <br></br>
+    <input type="image" id="movieImg5" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <input type="image" id="movieImg6" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <input type="image" id="movieImg7" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <input type="image" id="movieImg8" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+    <input type="image" id="movieImg9" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="  movieID="" imdbString ="" />
+  </div>
+  
+<footer>
+<br></br>
+<br></br>
+<hr id="footer" size=5 noshade color="white">
+    <input type="image" alt = "Rotten Tomatoes" id="rottenTomatoesLogo" src="https://fontmeme.com/images/rotten-tomatoes-new-logo.png" onclick="window.location.href='https://www.rottentomatoes.com'" width="15" height="31" border="0"/>
+    <input type="image" alt= "Metacritic" id="metacriticLogo" src="http://video-juegos.com/wp-content/uploads/2016/01/metacritic-logo.png" onclick="window.location.href='http://www.metacritic.com/'" width="15" height="31" border="0"/>
+    <input type="image" alt= "Fandango" id="fandangoLogo" src="https://images.fandango.com/r1.0.497/redesign/areas/staticpages/img/linktous/logos/88x31.gif" onclick="window.location.href='http://www.fandango.com/Redirect.aspx?wss=link88x31'" width="70" height="31" border="0"/>
+    <input type="image" alt= "MovieTickets.com" id="movieTicketsLogo" src="https://com-movietickets-cms.s3.amazonaws.com/images/default/mtc-branding/movieticketslogo.tmb-medium.png?sfvrsn=4bc9628f_1" onclick="window.location.href=' https://www.movietickets.com/default.asp?afid=hmf'" width="70" height="31" border="0"/>
+  </div>
+</hr>
+</footer>
+</body>
+</html>
